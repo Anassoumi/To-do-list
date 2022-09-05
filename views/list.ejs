@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<div class="gen-container">
+<h1>  <%=listTitle%> </h1>
+<div class="card-container">
+
+
+
+
+  <form  action="/" method="post">
+    <input  type="text" name="newItem" value="" autocomplete="off" placeholder="....">
+    <button type="submit" name="list" value=<%=listTitle%>>Submit</button>
+  </form>
+
+  <ul>
+
+
+  <% newListItems.forEach((newListItem)=>{ %>
+
+    <form action="/delete" method="post">
+      <div class="item1">
+    <input class="checky" type="checkbox" name="checkbox" value="<%=newListItem._id%>" onChange="this.form.submit()" >
+    <li class="item1 item"><%=newListItem.name%></li>
+  </div>
+    <input type="hidden" name="hiddenInput" value="<%=listTitle%>"></input>
+  </form>
+
+ 
+
+  <%  }) %>
+
+  </ul>
+
+  </div>
+
+  </div>
+
+</body>
+
+</html

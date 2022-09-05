@@ -1,0 +1,92 @@
+body{
+  background-color: #2a2a72;
+}
+
+
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),0 ,15px ,40px,rgba(0,0,0,0.7);
+  border: none;
+  background-color: #4c2885;
+  width:60vw;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  left: 17%;
+  
+  
+}
+
+li{
+  padding: 10px;
+  border: 1px solid yellow;
+  margin: 5px;
+  border-radius: 5px;
+  position: relative;
+  left: 0%
+
+}
+
+input{
+  margin-top: 10px;
+   padding: 15px 0px ;
+    width: 40vw;
+    background-color: #2d1d47;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),0 ,15px ,40px,rgba(0,0,0,0.7);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    font-weight: 900;
+
+    
+    
+}
+
+.item1{
+
+display: flex;
+position: relative;
+left: -20%;
+}
+
+.item{
+  margin-left: 0;
+  position: relative;
+  left: -35%;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+
+.checky{
+  padding: 0;
+  width: 20px;
+  position: relative;
+  left: -35%;
+
+
+}
+
+
+button{
+  padding: 14px;
+  border: none;
+  background-color: red;
+  color:purple;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 900;
+}
